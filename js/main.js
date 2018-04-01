@@ -18,7 +18,7 @@
     	$("#loader").fadeOut("slow", function(){
 
         // will fade out the whole DIV that covers the website.
-        $("#preloader").delay(300).fadeOut("slow");
+        $("#preloader").delay(200).fadeOut("fast");
 
       });       
 
@@ -226,9 +226,9 @@
   	/* Back to top
    ------------------------------------------------------- */ 
 	var pxShow = 300; // height on which the button will show
-	var fadeInTime = 400; // how slow/fast you want the button to show
-	var fadeOutTime = 400; // how slow/fast you want the button to hide
-	var scrollSpeed = 300; // how slow/fast you want the button to scroll to top. can be a value, 'slow', 'normal' or 'fast'
+	var fadeInTime = 200; // how slow/fast you want the button to show
+	var fadeOutTime = 500; // how slow/fast you want the button to hide
+	var scrollSpeed = normal; // how slow/fast you want the button to scroll to top. can be a value, 'slow', 'normal' or 'fast'
 
    // Show or hide the sticky footer button
 	jQuery(window).scroll(function() {
